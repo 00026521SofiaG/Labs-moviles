@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lab_02</string>
+    <string name="weight">Weight</string>
+    <string name="kg">kg</string>
+    <string name="height">Height</string>
+    <string name="cm">cm</string>
+    <string name="calculate">Calculate</string>
+    <string name="_21_58">21.58</string>
+    <string name="healthy">Healthy</string>
+    <string name="range">range</string>
+    <string name="bmi">BMI</string>
+    <string name="normal_range_is_18_5_24_9">(Normal range is 18.5-24.9)</string>
+</resources>
