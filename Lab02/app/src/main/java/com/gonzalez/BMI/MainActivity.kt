@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var calculateButton: Button
     private lateinit var bmiTextView: TextView
     private lateinit var healthTextView: TextView
-    
+
     private fun bind() {
         weightEditText = findViewById(R.id.weight_edit_text)
         heightEditText = findViewById(R.id.height_edit_text)
