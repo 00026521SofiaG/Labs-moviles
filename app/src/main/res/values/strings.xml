@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lab04</string>
+    <string name="rellena_la_siguente_informaci_n">Rellena la siguente informaciòn</string>
+    <string name="guardar">Guardar</string>
+</resources>
