@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Lab04_intent</string>
+    <string name="info">Rellena la siguiente informacion</string>
+    <string name="nombre">Nombre</string>
+    <string name="correo">Correo</string>
+    <string name="telefono">Numero de telefono</string>
+    <string name="guardar">Guardar</string>
+    <string name="confirmacion">Confirma tu informacion</string>
+    <string name="nombre_2">Nombre</string>
+    <string name="correo_2">Correo</string>
+    <string name="example_email">tets@gmail.com</string>
+    <string name="numero_de_telefono_2">Numero de telefono</string>
+    <string name="compartir">Compartir</string>
+    <string name="share_text">Name: %1$s \nEmail %2$s \nPhone: %3$s</string>
+</resources>
