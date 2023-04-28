@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">lab_05</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="billboard">Billboard</string>
+    <string name="star_wars_episodio_3">Star Wars episodio 3:La venganza de los Sith.</string>
+    <string name="harry_potter">Harry Potter y la Piedra Fislosofal</string>
+    <string name="calificacion_HP">9.5</string>
+    <string name="calificacion_SW">9.8</string>
+    <string name="genero">Ciencia Ficcion</string>
+    <string name="calificacion_STW">9.8</string>
+    <string name="resumen_SW">La pelicula se centra en el personaje de Anakin Skywalker, quien esta siendo tentado por el Lado Oscuro de la Fuerza mientras el Imperio Galactico comienza a surguir. La trama tambien muestra la caida de la Republica Galactica y el ascenso del Emperado Palpatine.</string>
+    <string name="new_movie">New movie</string>
+    <string name="name">Name</string>
+    <string name="category">Category</string>
+    <string name="description">Description</string>
+    <string name="calification">Calification</string>
+    <string name="submit">Submit</string>
+</resources>
