@@ -8,14 +8,12 @@ import android.view.ViewGroup
 import androidx.cardview.widget.CardView
 import androidx.navigation.findNavController
 import com.example.laboratorio05.R
+import com.example.laboratorio05.data.model.MovieModel
+import com.example.laboratorio05.data.movies
 import com.example.laboratorio05.databinding.FragmentBillboardBinding
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 class BillboardFragment : Fragment() {
-    private lateinit var btnCreateNewMovie: FloatingActionButton
-    private lateinit var starWarsCv: CardView
-    private lateinit var harryPotterCv: CardView
-
     private lateinit var binding : FragmentBillboardBinding
 
     override fun onCreateView(
@@ -29,21 +27,14 @@ class BillboardFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        btnCreateNewMovie = view.findViewById(R.id.btnNavCreateNewMovie)
-        starWarsCv = view.findViewById(R.id.starWarsCardView)
-        harryPotterCv = view.findViewById(R.id.harryPotterCardView)
+        val adapter = MovieAdapter()
 
-        starWarsCv.setOnClickListener {
-            it.findNavController().navigate(R.id.action_billboardFragment_to_movieFragment)
-        }
+        binding.RecycleCard.adapter = adapter
+        adapter.setData(movies)
 
-        harryPotterCv.setOnClickListener {
-            it.findNavController().navigate(R.id.action_billboardFragment_to_movieFragment)
-        }
 
-        btnCreateNewMovie.setOnClickListener {
-            it.findNavController().navigate(R.id.action_billboardFragment_to_newMovieFragment)
-        }
+
+
 
     }
 
