@@ -34,5 +34,12 @@
         android:id="@+id/newMovieFragment"
         android:name="com.example.laboratorio05.ui.movie.NewMovieFragment"
         android:label="fragment_new_movie"
-        tools:layout="@layout/fragment_new_movie" />
+        tools:layout="@layout/fragment_new_movie" >
+        <action
+            android:id="@+id/action_newMovieFragment_to_billboardFragment"
+            app:destination="@+id/billboardFragment"
+            />
+    </fragment>
+
+
 </navigation>
